@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
     name="description"
-    content="Privacy policy for Little Wild: Fox Adventure by Aivyx Labs."
+    content="Privacy policy and account deletion instructions for Little Wild: Fox Adventure by Aivyx Labs."
   >
   <title>Privacy Policy | Little Wild: Fox Adventure</title>
 
@@ -64,10 +64,47 @@
       color: #5d6872;
     }
 
-    .contact {
+    .contact,
+    .deletion-notice {
       padding: 20px;
       background: #f0f6f4;
       border-radius: 8px;
+    }
+
+    .deletion-notice {
+      margin: 24px 0;
+      border: 1px solid #b8d8cf;
+    }
+
+    .deletion-notice p:first-child {
+      margin-top: 0;
+    }
+
+    .deletion-notice p:last-child {
+      margin-bottom: 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #124e47;
+      color: #ffffff;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #0c3b36;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #075ca8;
+      outline-offset: 4px;
+    }
+
+    #account-deletion {
+      scroll-margin-top: 24px;
     }
 
     @media (max-width: 600px) {
@@ -106,6 +143,15 @@
         rizutechstudio@gmail.com
       </a>
     </p>
+
+    <nav class="deletion-notice" aria-label="Account deletion">
+      <p><strong>Want to delete your Little Wild account?</strong></p>
+      <p>
+        You can request deletion of your account and associated cloud
+        progress without reinstalling the game.
+        <a href="#account-deletion">View account deletion instructions</a>.
+      </p>
+    </nav>
 
     <h2>1. Information We Handle</h2>
 
@@ -311,7 +357,7 @@
       safeguards govern international processing.
     </p>
 
-    <h2>5. Retention</h2>
+    <h2 id="retention">5. Retention</h2>
 
     <p>
       Local progress and preferences remain until removed through device
@@ -357,68 +403,144 @@
       retention and deletion processes apply.
     </p>
 
-    <h2>6. Your Choices and Account Deletion</h2>
+    <section aria-labelledby="account-deletion">
+      <h2 id="account-deletion">6. Your Choices and Account Deletion</h2>
 
-    <p>
-      You can use guest play instead of optional Google sign-in and can
-      decline to watch rewarded ads. Signing out does not delete an
-      existing cloud account or disable diagnostic and usage collection.
-    </p>
+      <p>
+        You can use guest play instead of optional Google sign-in and can
+        decline to watch rewarded ads. Signing out does not delete an
+        existing cloud account or disable diagnostic and usage collection.
+      </p>
 
-    <h3>Delete Your Account in the Game</h3>
+      <div class="deletion-notice">
+        <h3>Request Deletion Without Reinstalling the Game</h3>
 
-    <p>
-      Open <strong>Settings → Account &amp; cloud save</strong>, then use
-      the account deletion option. You will be asked to verify your
-      Google identity.
-    </p>
+        <p>
+          To request deletion of your
+          <strong>Little Wild: Fox Adventure</strong> account and associated
+          cloud progress held by <strong>Aivyx Labs</strong>:
+        </p>
 
-    <p>
-      Deletion removes the game account and associated active cloud
-      progress. Your separate guest save remains available.
-      It does not delete your Google account.
-    </p>
+        <ol>
+          <li>
+            Email
+            <a href="mailto:rizutechstudio@gmail.com">
+              rizutechstudio@gmail.com
+            </a>,
+            preferably from the email address used for game sign-in.
+          </li>
+          <li>
+            Use the subject
+            <strong>Little Wild account deletion</strong>.
+          </li>
+          <li>
+            State the email address used for game sign-in and that you
+            want your game account and associated data deleted.
+          </li>
+        </ol>
 
-    <h3>Request Deletion Without Reinstalling the Game</h3>
+        <p>
+          <a
+            class="button"
+            href="mailto:rizutechstudio@gmail.com?subject=Little%20Wild%20account%20deletion&amp;body=Hello%20Aivyx%20Labs%2C%0D%0A%0D%0APlease%20delete%20my%20Little%20Wild%3A%20Fox%20Adventure%20account%20and%20associated%20data.%0D%0A%0D%0AEmail%20used%20for%20game%20sign-in%3A%20%5Benter%20your%20email%5D%0D%0A"
+          >
+            Email an Account Deletion Request
+          </a>
+        </p>
 
-    <p>
-      Email
-      <a href="mailto:rizutechstudio@gmail.com">
-        rizutechstudio@gmail.com
-      </a>
-      with the subject <strong>Little Wild account deletion</strong>.
-      State the email used for game sign-in.
-    </p>
+        <p>
+          This button opens your email application. Send the email to
+          submit your request. If it does not open, manually email the
+          address above.
+        </p>
 
-    <p>
-      We may request limited information to verify that you control the
-      account. Never send your Google password. We process verified
-      requests without undue delay and within applicable legal
-      requirements.
-    </p>
+        <p>
+          You do not need to reinstall the game to submit a request.
+          We may request limited information to verify that you control
+          the account. Never send your Google password.
+        </p>
 
-    <h3>Local Data and Advertising Controls</h3>
+        <p>
+          We process verified requests without undue delay and within
+          applicable legal requirements.
+        </p>
+      </div>
 
-    <p>
-      Use Android's app-storage controls to remove guest progress and
-      local settings. Advertising identifier and advertising privacy
-      controls are available through your Android or Google settings.
-      Available options vary by device.
-    </p>
+      <h3>What Is Deleted</h3>
 
-    <h3>Privacy Rights</h3>
+      <p>
+        Account deletion removes your Little Wild Firebase Authentication
+        account, including the account profile held for the game, and
+        its active Cloud Firestore save. The cloud save includes supported
+        trail completion, earned currency, character ownership, selected
+        character, reward history, achievements and save timestamps or
+        revision information.
+      </p>
 
-    <p>
-      Depending on your location, you may have rights to access, correct,
-      delete or obtain a copy of personal information, restrict or object
-      to certain processing, withdraw consent where processing relies
-      on it, or complain to a data protection authority.
-    </p>
+      <p>
+        Deletion does not delete your Google account. Your separate guest
+        save remains available. For data held on your device, use the
+        local-data controls described below.
+      </p>
 
-    <p>
-      Contact us to exercise applicable rights. We may need to verify
-      your identity.
-    </p>
+      <h3>Data That May Remain</h3>
+
+      <p>
+        Account deletion does not automatically remove all independent
+        analytics, advertising or diagnostic SDK records, aggregate
+        reports or provider backups. These follow the retention and
+        deletion processes described in
+        <a href="#retention">Section 5: Retention</a>.
+      </p>
+
+      <p>
+        Crashlytics generally retains crash information and associated
+        identifiers for 90 days before beginning removal. Analytics and
+        AdMob records follow the applicable project settings and provider
+        policies. Support correspondence may be retained while needed to
+        handle your request and related legal or security matters.
+        Information subject to a legal retention obligation is kept for
+        that obligation.
+      </p>
+
+      <h3>Delete Your Account in the Game</h3>
+
+      <p>
+        Open <strong>Settings → Account &amp; cloud save</strong>, then use
+        the account deletion option. You will be asked to verify your
+        Google identity.
+      </p>
+
+      <p>
+        In-app deletion removes the game account and associated active
+        cloud progress, as well as account-specific progress and conflict
+        backups held by the app on that device. Your separate guest save
+        remains available. It does not delete your Google account.
+      </p>
+
+      <h3>Local Data and Advertising Controls</h3>
+
+      <p>
+        Use Android's app-storage controls to remove guest progress and
+        local settings. Advertising identifier and advertising privacy
+        controls are available through your Android or Google settings.
+        Available options vary by device.
+      </p>
+
+      <h3>Privacy Rights</h3>
+
+      <p>
+        Depending on your location, you may have rights to access, correct,
+        delete or obtain a copy of personal information, restrict or object
+        to certain processing, withdraw consent where processing relies
+        on it, or complain to a data protection authority.
+      </p>
+
+      <p>
+        Contact us to exercise applicable rights. We may need to verify
+        your identity.
+      </p>
+    </section>
 
     <h2>7. Children and Parents</h2>
 
